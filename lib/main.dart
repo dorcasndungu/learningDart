@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
+//adds constant
 const age = 27;
+//fn
+String addSpace(String a, String b) {
+  return '$a $b';
+}
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +17,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    print(addSpace('Water', 'Girl'));
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
