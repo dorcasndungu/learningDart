@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-//adds constant
-const age = 27;
 //fn
 String addSpace(String a, String b) {
   return '$a $b';
